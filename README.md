@@ -11,12 +11,12 @@ Predicts a twitter user's political party based on recent tweets.
       
 Predicts political party leaning of hashtags using most recent tweets.
 
-      Enter a twitter hashtag to predict the political leaning of the topic.
+      Enter a twitter hashtag to predict the political leaning of the topic using most recent tweets.
       A political party prediction is displayed onto the screen.
       
  Predicts political party leaning of any word or phrase enetered using most recent tweets.
 
-      Enter a twitter hashtag to predict the political leaning of the topic.
+      Enter a any words or phrase to predict the political leaning of the topic using most recent tweets.
       A political party prediction is displayed onto the screen.
       
       
