@@ -1,6 +1,24 @@
 # PoliticalPartyClassifier
 Classifies twitter users political party using Apples Core ML with political party model in Swift.
-
-This predicts a twitter user's political party based on recent tweets.
 The political party model was created using Apples CreateML and data from Kaggle.com.
-A political party prediction is displayed onto the screen in addition to the user's profile picture.
+
+
+Predicts a twitter user's political party based on recent tweets.
+      
+      Enter a twitter hanlde to predicit the political party of the user.
+      A political party prediction is displayed onto the screen in addition to the user's profile picture.
+      
+      
+Predicts political party leaning of hashtags using most recent tweets.
+
+      Enter a twitter hashtag to predict the political leaning of the topic.
+      A political party prediction is displayed onto the screen.
+      
+ Predicts political party leaning of any word or phrase enetered using most recent tweets.
+
+      Enter a twitter hashtag to predict the political leaning of the topic.
+      A political party prediction is displayed onto the screen.
+      
+      
+      
+      
