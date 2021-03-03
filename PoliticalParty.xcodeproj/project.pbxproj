@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4DC1829762F05CB740AA3C /* Pods_PoliticalParty_PoliticalPartyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6638CA98CCC2B83BCD62F6BA /* Pods_PoliticalParty_PoliticalPartyUITests.framework */; };
+		81FDE5D3CEE8BC2104CE9E29 /* Pods_PoliticalPartyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0F2F50100CD8C19A1FE7D8 /* Pods_PoliticalPartyTests.framework */; };
+		861A80EB4D10FD6EEF215C90 /* Pods_PoliticalParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A524E675025D47C6BDEE01DF /* Pods_PoliticalParty.framework */; };
+		DF5CC1D225ED3BC800E94DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC1D125ED3BC800E94DCC /* AppDelegate.swift */; };
+		DF5CC1D425ED3BC800E94DCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC1D325ED3BC800E94DCC /* SceneDelegate.swift */; };
+		DF5CC1D625ED3BC800E94DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC1D525ED3BC800E94DCC /* ViewController.swift */; };
+		DF5CC1D925ED3BC800E94DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC1D725ED3BC800E94DCC /* Main.storyboard */; };
+		DF5CC1DB25ED3BC900E94DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC1DA25ED3BC900E94DCC /* Assets.xcassets */; };
+		DF5CC1DE25ED3BC900E94DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC1DC25ED3BC900E94DCC /* LaunchScreen.storyboard */; };
+		DF5CC1E925ED3BCA00E94DCC /* PoliticalPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC1E825ED3BCA00E94DCC /* PoliticalPartyTests.swift */; };
+		DF5CC1F425ED3BCA00E94DCC /* PoliticalPartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC1F325ED3BCA00E94DCC /* PoliticalPartyUITests.swift */; };
+		DF5CC24425ED408600E94DCC /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5CC23425ED401D00E94DCC /* SwifteriOS.framework */; };
+		DF5CC24525ED408600E94DCC /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF5CC23425ED401D00E94DCC /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF5CC25525ED412800E94DCC /* political-data.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC24F25ED412800E94DCC /* political-data.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF5CC1E525ED3BCA00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC1C625ED3BC800E94DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5CC1CD25ED3BC800E94DCC;
+			remoteInfo = PoliticalParty;
+		};
+		DF5CC1F025ED3BCA00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC1C625ED3BC800E94DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5CC1CD25ED3BC800E94DCC;
+			remoteInfo = PoliticalParty;
+		};
+		DF5CC23325ED401D00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		DF5CC23525ED401D00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		DF5CC23725ED401D00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		DF5CC23925ED401D00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		DF5CC23B25ED401D00E94DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF5CC24625ED408600E94DCC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF5CC24525ED408600E94DCC /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10FD83A3637A5F4D37192F07 /* Pods-PoliticalPartyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalPartyTests.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalPartyTests/Pods-PoliticalPartyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		189211320449FF1EFB3A3550 /* Pods-PoliticalParty-PoliticalPartyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalParty-PoliticalPartyUITests.release.xcconfig"; path = "Target Support Files/Pods-PoliticalParty-PoliticalPartyUITests/Pods-PoliticalParty-PoliticalPartyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B0F2F50100CD8C19A1FE7D8 /* Pods_PoliticalPartyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalPartyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6638CA98CCC2B83BCD62F6BA /* Pods_PoliticalParty_PoliticalPartyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalParty_PoliticalPartyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789814E14BD09580AE9CD0AF /* Pods-PoliticalParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalParty.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalParty/Pods-PoliticalParty.debug.xcconfig"; sourceTree = "<group>"; };
+		8392F7EA118888CE513AC342 /* Pods-PoliticalParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalParty.release.xcconfig"; path = "Target Support Files/Pods-PoliticalParty/Pods-PoliticalParty.release.xcconfig"; sourceTree = "<group>"; };
+		9097B714FDE05A9EFF70C1A6 /* Pods-PoliticalPartyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalPartyTests.release.xcconfig"; path = "Target Support Files/Pods-PoliticalPartyTests/Pods-PoliticalPartyTests.release.xcconfig"; sourceTree = "<group>"; };
+		972383374A093AC650921462 /* Pods-PoliticalParty-PoliticalPartyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalParty-PoliticalPartyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalParty-PoliticalPartyUITests/Pods-PoliticalParty-PoliticalPartyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A524E675025D47C6BDEE01DF /* Pods_PoliticalParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5CC1CE25ED3BC800E94DCC /* PoliticalParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticalParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5CC1D125ED3BC800E94DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5CC1D325ED3BC800E94DCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF5CC1D525ED3BC800E94DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF5CC1D825ED3BC800E94DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5CC1DA25ED3BC900E94DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5CC1DD25ED3BC900E94DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5CC1DF25ED3BC900E94DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5CC1E425ED3BCA00E94DCC /* PoliticalPartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalPartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5CC1E825ED3BCA00E94DCC /* PoliticalPartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalPartyTests.swift; sourceTree = "<group>"; };
+		DF5CC1EA25ED3BCA00E94DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5CC1EF25ED3BCA00E94DCC /* PoliticalPartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalPartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5CC1F325ED3BCA00E94DCC /* PoliticalPartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalPartyUITests.swift; sourceTree = "<group>"; };
+		DF5CC1F525ED3BCA00E94DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Frameworks/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		DF5CC24F25ED412800E94DCC /* political-data.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "political-data.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5CC1CB25ED3BC800E94DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861A80EB4D10FD6EEF215C90 /* Pods_PoliticalParty.framework in Frameworks */,
+				DF5CC24425ED408600E94DCC /* SwifteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1E125ED3BCA00E94DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FDE5D3CEE8BC2104CE9E29 /* Pods_PoliticalPartyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1EC25ED3BCA00E94DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4DC1829762F05CB740AA3C /* Pods_PoliticalParty_PoliticalPartyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0DE3751BD57FAEBE3661346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789814E14BD09580AE9CD0AF /* Pods-PoliticalParty.debug.xcconfig */,
+				8392F7EA118888CE513AC342 /* Pods-PoliticalParty.release.xcconfig */,
+				972383374A093AC650921462 /* Pods-PoliticalParty-PoliticalPartyUITests.debug.xcconfig */,
+				189211320449FF1EFB3A3550 /* Pods-PoliticalParty-PoliticalPartyUITests.release.xcconfig */,
+				10FD83A3637A5F4D37192F07 /* Pods-PoliticalPartyTests.debug.xcconfig */,
+				9097B714FDE05A9EFF70C1A6 /* Pods-PoliticalPartyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA9F3D6D7AF764D22C3EB9C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A524E675025D47C6BDEE01DF /* Pods_PoliticalParty.framework */,
+				6638CA98CCC2B83BCD62F6BA /* Pods_PoliticalParty_PoliticalPartyUITests.framework */,
+				5B0F2F50100CD8C19A1FE7D8 /* Pods_PoliticalPartyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5CC1C525ED3BC800E94DCC = {
+			isa = PBXGroup;
+			children = (
+				DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */,
+				DF5CC1D025ED3BC800E94DCC /* PoliticalParty */,
+				DF5CC1E725ED3BCA00E94DCC /* PoliticalPartyTests */,
+				DF5CC1F225ED3BCA00E94DCC /* PoliticalPartyUITests */,
+				DF5CC1CF25ED3BC800E94DCC /* Products */,
+				B0DE3751BD57FAEBE3661346 /* Pods */,
+				DA9F3D6D7AF764D22C3EB9C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5CC1CF25ED3BC800E94DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC1CE25ED3BC800E94DCC /* PoliticalParty.app */,
+				DF5CC1E425ED3BCA00E94DCC /* PoliticalPartyTests.xctest */,
+				DF5CC1EF25ED3BCA00E94DCC /* PoliticalPartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5CC1D025ED3BC800E94DCC /* PoliticalParty */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC1D125ED3BC800E94DCC /* AppDelegate.swift */,
+				DF5CC1D325ED3BC800E94DCC /* SceneDelegate.swift */,
+				DF5CC24F25ED412800E94DCC /* political-data.mlmodel */,
+				DF5CC1D525ED3BC800E94DCC /* ViewController.swift */,
+				DF5CC1D725ED3BC800E94DCC /* Main.storyboard */,
+				DF5CC1DA25ED3BC900E94DCC /* Assets.xcassets */,
+				DF5CC1DC25ED3BC900E94DCC /* LaunchScreen.storyboard */,
+				DF5CC1DF25ED3BC900E94DCC /* Info.plist */,
+			);
+			path = PoliticalParty;
+			sourceTree = "<group>";
+		};
+		DF5CC1E725ED3BCA00E94DCC /* PoliticalPartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC1E825ED3BCA00E94DCC /* PoliticalPartyTests.swift */,
+				DF5CC1EA25ED3BCA00E94DCC /* Info.plist */,
+			);
+			path = PoliticalPartyTests;
+			sourceTree = "<group>";
+		};
+		DF5CC1F225ED3BCA00E94DCC /* PoliticalPartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC1F325ED3BCA00E94DCC /* PoliticalPartyUITests.swift */,
+				DF5CC1F525ED3BCA00E94DCC /* Info.plist */,
+			);
+			path = PoliticalPartyUITests;
+			sourceTree = "<group>";
+		};
+		DF5CC22C25ED401D00E94DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC23425ED401D00E94DCC /* SwifteriOS.framework */,
+				DF5CC23625ED401D00E94DCC /* SwifterMac.framework */,
+				DF5CC23825ED401D00E94DCC /* SwifterDemoiOS.app */,
+				DF5CC23A25ED401D00E94DCC /* SwifterDemoMac.app */,
+				DF5CC23C25ED401D00E94DCC /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5CC1CD25ED3BC800E94DCC /* PoliticalParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5CC1F825ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalParty" */;
+			buildPhases = (
+				B015ED5B13549FC59DC7A8B3 /* [CP] Check Pods Manifest.lock */,
+				DF5CC1CA25ED3BC800E94DCC /* Sources */,
+				DF5CC1CB25ED3BC800E94DCC /* Frameworks */,
+				DF5CC1CC25ED3BC800E94DCC /* Resources */,
+				CF0EC70CB449F3ABE4248D6C /* [CP] Embed Pods Frameworks */,
+				DF5CC24625ED408600E94DCC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliticalParty;
+			productName = PoliticalParty;
+			productReference = DF5CC1CE25ED3BC800E94DCC /* PoliticalParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5CC1E325ED3BCA00E94DCC /* PoliticalPartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5CC1FB25ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalPartyTests" */;
+			buildPhases = (
+				49F6C036B03170CF97E148B9 /* [CP] Check Pods Manifest.lock */,
+				DF5CC1E025ED3BCA00E94DCC /* Sources */,
+				DF5CC1E125ED3BCA00E94DCC /* Frameworks */,
+				DF5CC1E225ED3BCA00E94DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5CC1E625ED3BCA00E94DCC /* PBXTargetDependency */,
+			);
+			name = PoliticalPartyTests;
+			productName = PoliticalPartyTests;
+			productReference = DF5CC1E425ED3BCA00E94DCC /* PoliticalPartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF5CC1EE25ED3BCA00E94DCC /* PoliticalPartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5CC1FE25ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalPartyUITests" */;
+			buildPhases = (
+				A2502E7DC443B74DEB75B775 /* [CP] Check Pods Manifest.lock */,
+				DF5CC1EB25ED3BCA00E94DCC /* Sources */,
+				DF5CC1EC25ED3BCA00E94DCC /* Frameworks */,
+				DF5CC1ED25ED3BCA00E94DCC /* Resources */,
+				3EF9028CCE1D42643DBEE944 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5CC1F125ED3BCA00E94DCC /* PBXTargetDependency */,
+			);
+			name = PoliticalPartyUITests;
+			productName = PoliticalPartyUITests;
+			productReference = DF5CC1EF25ED3BCA00E94DCC /* PoliticalPartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5CC1C625ED3BC800E94DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DF5CC1CD25ED3BC800E94DCC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DF5CC1E325ED3BCA00E94DCC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DF5CC1CD25ED3BC800E94DCC;
+					};
+					DF5CC1EE25ED3BCA00E94DCC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DF5CC1CD25ED3BC800E94DCC;
+					};
+				};
+			};
+			buildConfigurationList = DF5CC1C925ED3BC800E94DCC /* Build configuration list for PBXProject "PoliticalParty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5CC1C525ED3BC800E94DCC;
+			productRefGroup = DF5CC1CF25ED3BC800E94DCC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DF5CC22C25ED401D00E94DCC /* Products */;
+					ProjectRef = DF5CC22B25ED401D00E94DCC /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DF5CC1CD25ED3BC800E94DCC /* PoliticalParty */,
+				DF5CC1E325ED3BCA00E94DCC /* PoliticalPartyTests */,
+				DF5CC1EE25ED3BCA00E94DCC /* PoliticalPartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DF5CC23425ED401D00E94DCC /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = DF5CC23325ED401D00E94DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF5CC23625ED401D00E94DCC /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = DF5CC23525ED401D00E94DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF5CC23825ED401D00E94DCC /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = DF5CC23725ED401D00E94DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF5CC23A25ED401D00E94DCC /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = DF5CC23925ED401D00E94DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF5CC23C25ED401D00E94DCC /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = DF5CC23B25ED401D00E94DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5CC1CC25ED3BC800E94DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5CC1DE25ED3BC900E94DCC /* LaunchScreen.storyboard in Resources */,
+				DF5CC1DB25ED3BC900E94DCC /* Assets.xcassets in Resources */,
+				DF5CC1D925ED3BC800E94DCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1E225ED3BCA00E94DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1ED25ED3BCA00E94DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF9028CCE1D42643DBEE944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty-PoliticalPartyUITests/Pods-PoliticalParty-PoliticalPartyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty-PoliticalPartyUITests/Pods-PoliticalParty-PoliticalPartyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty-PoliticalPartyUITests/Pods-PoliticalParty-PoliticalPartyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F6C036B03170CF97E148B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalPartyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2502E7DC443B74DEB75B775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalParty-PoliticalPartyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B015ED5B13549FC59DC7A8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalParty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF0EC70CB449F3ABE4248D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty/Pods-PoliticalParty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty/Pods-PoliticalParty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoliticalParty/Pods-PoliticalParty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5CC1CA25ED3BC800E94DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5CC1D625ED3BC800E94DCC /* ViewController.swift in Sources */,
+				DF5CC1D225ED3BC800E94DCC /* AppDelegate.swift in Sources */,
+				DF5CC25525ED412800E94DCC /* political-data.mlmodel in Sources */,
+				DF5CC1D425ED3BC800E94DCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1E025ED3BCA00E94DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5CC1E925ED3BCA00E94DCC /* PoliticalPartyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5CC1EB25ED3BCA00E94DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5CC1F425ED3BCA00E94DCC /* PoliticalPartyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF5CC1E625ED3BCA00E94DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5CC1CD25ED3BC800E94DCC /* PoliticalParty */;
+			targetProxy = DF5CC1E525ED3BCA00E94DCC /* PBXContainerItemProxy */;
+		};
+		DF5CC1F125ED3BCA00E94DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5CC1CD25ED3BC800E94DCC /* PoliticalParty */;
+			targetProxy = DF5CC1F025ED3BCA00E94DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5CC1D725ED3BC800E94DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5CC1D825ED3BC800E94DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5CC1DC25ED3BC900E94DCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5CC1DD25ED3BC900E94DCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5CC1F625ED3BCA00E94DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5CC1F725ED3BCA00E94DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5CC1F925ED3BCA00E94DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789814E14BD09580AE9CD0AF /* Pods-PoliticalParty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5CC1FA25ED3BCA00E94DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8392F7EA118888CE513AC342 /* Pods-PoliticalParty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF5CC1FC25ED3BCA00E94DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FD83A3637A5F4D37192F07 /* Pods-PoliticalPartyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalPartyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliticalParty.app/PoliticalParty";
+			};
+			name = Debug;
+		};
+		DF5CC1FD25ED3BCA00E94DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9097B714FDE05A9EFF70C1A6 /* Pods-PoliticalPartyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalPartyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliticalParty.app/PoliticalParty";
+			};
+			name = Release;
+		};
+		DF5CC1FF25ED3BCA00E94DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972383374A093AC650921462 /* Pods-PoliticalParty-PoliticalPartyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliticalParty;
+			};
+			name = Debug;
+		};
+		DF5CC20025ED3BCA00E94DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189211320449FF1EFB3A3550 /* Pods-PoliticalParty-PoliticalPartyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoliticalPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.menascii.PoliticalPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliticalParty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5CC1C925ED3BC800E94DCC /* Build configuration list for PBXProject "PoliticalParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5CC1F625ED3BCA00E94DCC /* Debug */,
+				DF5CC1F725ED3BCA00E94DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5CC1F825ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5CC1F925ED3BCA00E94DCC /* Debug */,
+				DF5CC1FA25ED3BCA00E94DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5CC1FB25ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalPartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5CC1FC25ED3BCA00E94DCC /* Debug */,
+				DF5CC1FD25ED3BCA00E94DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5CC1FE25ED3BCA00E94DCC /* Build configuration list for PBXNativeTarget "PoliticalPartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5CC1FF25ED3BCA00E94DCC /* Debug */,
+				DF5CC20025ED3BCA00E94DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5CC1C625ED3BC800E94DCC /* Project object */;
+}
