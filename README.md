@@ -20,5 +20,5 @@ Predicts political party leaning of hashtags using most recent tweets.
       A political party prediction is displayed onto the screen.
       
       
-      
+  *Note: there are inncuracies due to model needing more data to be more precise.
       
