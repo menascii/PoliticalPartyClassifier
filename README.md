@@ -1,5 +1,5 @@
 # PoliticalPartyClassifier
-Classifies twitter users political party using Apples Core ML with political party model in Swift.
+Classifies twitter users political party or political leaning of searched topics using Apples Core ML with political party model in Swift.
 The political party model was created using Apples CreateML and data from Kaggle.com.
 
 
